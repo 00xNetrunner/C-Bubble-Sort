@@ -1,3 +1,10 @@
+/*
+* Leif R Bruce \\ 2202336 \\ 2202336@uad.ac.uk 
+* 31st of Oct 2022 \\ 5PM
+* This programing will be able to sort numbers the user enters into the program, this program will then sort out the numbers-
+* using the bubble sort method, in this instance it will be sorting the numbers in ascending order.
+*/
+
 #include<iostream>
 using namespace std;
 int main()
