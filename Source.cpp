@@ -9,6 +9,10 @@
 using namespace std;
 int main()
 {
+    
+    // Declerations and userinput
+    // the user wil need to enter a select amount of numbers
+    
     int x, y, arry[60], z, interim;
     cout << "Please enter how many numbers you would like to sort:\n>> ";
     cin >> x;
@@ -16,6 +20,8 @@ int main()
     for(y=0; y<x; y++)
         cin >> arry[y];
     cout << "Give bubble sort a minute to do its thing.....";
+    
+    //Bubble Sort
     for (y = 0; y < (x - 1); y++)
     {
         for (z = 0; z < (x - y - 1); z++)
@@ -30,7 +36,8 @@ int main()
             }
         }
     }
-
+    
+    // Output of the sort
     cout << "\nBubble sorted as went through the array in accending order\n Arry:";
     for (y = 0; y < x; y++)
         cout << arry[y] << " ";
